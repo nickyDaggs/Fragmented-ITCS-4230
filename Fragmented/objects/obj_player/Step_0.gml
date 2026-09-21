@@ -3,6 +3,8 @@ var right_press = keyboard_check(vk_right);
 var jump_press = keyboard_check_pressed(vk_space);
 var jump_held = keyboard_check(vk_space);
 
+var dash_press = keyboard_check(vk_shift);
+
 var x_move = (right_press - left_press) * player_xspeed;
 
 player_yspeed += player_gravity;
@@ -12,15 +14,13 @@ move_and_collide(x_move, 0, obj_testFloor)
 
 if(place_meeting(x, y + 1, obj_testFloor)) {
 	on_ground = true;
+	jump_current = jump_count;
 } else {
 	on_ground = false;
 }
 
 if(place_meeting(x, y + player_yspeed, obj_testFloor)) {
 	player_yspeed = 0;
-	if(jumping) {
-		//jumping = false;
-	}
 }
 
 //COYOTE TIMER
@@ -32,6 +32,7 @@ if(!on_ground) {
 		if(!jumping) {
 			if(jump_press) {
 				player_yspeed = player_jump_speed;
+				jump_current--;
 				jumping = true;
 			}
 		}
@@ -51,8 +52,8 @@ if(jump_press) {
 if(buffer_counter > 0) { 
 	buffer_counter -= 1;
 	
-	if(on_ground) {
-		
+	if(jump_current > 0) {
+		jump_current--;
 		player_yspeed = player_jump_speed;
 		buffer_counter = 0;
 		jumping = true;
@@ -63,5 +64,19 @@ if(buffer_counter > 0) {
 
 if(jumping && !jump_held && player_yspeed < 0) {
 	player_yspeed *= 0.5;
+}
+
+//Teleport Dash
+if(can_dash && dash_press && dash_ready) { 
+	dash_ready = false;
+	dash_speed = (right_press - left_press) * dash_xspeed;
+	if(place_meeting(x+dash_speed, y, obj_testFloor)) {
+        if(!place_meeting(x+1, y, obj_testFloor)) {
+            x+=1;
+        }
+    } else {
+		x += (right_press - left_press) * dash_xspeed;
+	}
+	alarm[0] = 30;
 }
 

@@ -20,6 +20,7 @@
     {"name":"obj_player","order":1,"path":"objects/obj_player/obj_player.yy",},
     {"name":"obj_testFloor","order":2,"path":"objects/obj_testFloor/obj_testFloor.yy",},
     {"name":"obj_testWall","order":3,"path":"objects/obj_testWall/obj_testWall.yy",},
+    {"name":"MainRoom","order":1,"path":"rooms/MainRoom/MainRoom.yy",},
     {"name":"Test_TileSet","order":3,"path":"sprites/Test_TileSet/Test_TileSet.yy",},
     {"name":"testPlayerSprite","order":1,"path":"sprites/testPlayerSprite/testPlayerSprite.yy",},
     {"name":"testSprite_wall","order":2,"path":"sprites/testSprite_wall/testSprite_wall.yy",},
