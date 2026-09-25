@@ -1,5 +1,6 @@
 var left_press = keyboard_check(vk_left);
 var right_press = keyboard_check(vk_right);
+var down_press = keyboard_check(vk_down);
 var jump_press = keyboard_check_pressed(vk_space);
 var jump_held = keyboard_check(vk_space);
 
@@ -9,19 +10,29 @@ var x_move = (right_press - left_press) * player_xspeed;
 
 player_yspeed += player_gravity;
 
-move_and_collide(0, player_yspeed, obj_testFloor, 4, 0, 0, 0, player_max_fall_speed);
-move_and_collide(x_move, 0, obj_testFloor)
+//vercollision, movement, and jumping
 
-if(place_meeting(x, y + 1, obj_testFloor)) {
+var one_way_obj = instance_place(x, y + player_yspeed, obj_OneWayFloor);
+var top_of_one_way = one_way_obj != noone and self.bbox_bottom <= one_way_obj.bbox_top+1;
+
+if(place_meeting(x, y + player_yspeed, obj_testFloor) or 
+place_meeting(x, y + player_yspeed, obj_OneWayFloor) && top_of_one_way && !down_press) {
+	player_yspeed = 0;
+}
+
+move_and_collide(0, player_yspeed, obj_testFloor, 4, 0, 0, 0, player_max_fall_speed);
+move_and_collide(x_move, 0, obj_testFloor);
+
+
+
+if((place_meeting(x, y + 1, obj_testFloor)) or (place_meeting(x, y + 1, obj_OneWayFloor))) {
 	on_ground = true;
 	jump_current = jump_count;
 } else {
 	on_ground = false;
 }
 
-if(place_meeting(x, y + player_yspeed, obj_testFloor)) {
-	player_yspeed = 0;
-}
+
 
 //COYOTE TIMER
 
