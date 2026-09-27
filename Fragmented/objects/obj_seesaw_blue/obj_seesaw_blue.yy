@@ -1,13 +1,15 @@
 {
   "$GMObject":"",
-  "%Name":"obj_monkeyBarsSmall",
-  "eventList":[],
+  "%Name":"obj_seesaw_blue",
+  "eventList":[
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+  ],
   "managed":true,
-  "name":"obj_monkeyBarsSmall",
+  "name":"obj_seesaw_blue",
   "overriddenProperties":[],
   "parent":{
-    "name":"group1",
-    "path":"folders/Objects/Childhood Objects/group1.yy",
+    "name":"Childhood Objects",
+    "path":"folders/Objects/Childhood Objects.yy",
   },
   "parentObjectId":{
     "name":"obj_testFloor",
@@ -31,8 +33,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"spr_monkeyBarsSmall",
-    "path":"sprites/spr_monkeyBarsSmall/spr_monkeyBarsSmall.yy",
+    "name":"spr_seesaw_b",
+    "path":"sprites/spr_seesaw_b/spr_seesaw_b.yy",
   },
   "spriteMaskId":null,
   "visible":true,

@@ -1,13 +1,13 @@
 {
   "$GMObject":"",
-  "%Name":"obj_monkeyBarsSmall",
+  "%Name":"obj_baseball",
   "eventList":[],
   "managed":true,
-  "name":"obj_monkeyBarsSmall",
+  "name":"obj_baseball",
   "overriddenProperties":[],
   "parent":{
-    "name":"group1",
-    "path":"folders/Objects/Childhood Objects/group1.yy",
+    "name":"Childhood Objects",
+    "path":"folders/Objects/Childhood Objects.yy",
   },
   "parentObjectId":{
     "name":"obj_testFloor",
@@ -31,8 +31,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"spr_monkeyBarsSmall",
-    "path":"sprites/spr_monkeyBarsSmall/spr_monkeyBarsSmall.yy",
+    "name":"spr_baseball",
+    "path":"sprites/spr_baseball/spr_baseball.yy",
   },
   "spriteMaskId":null,
   "visible":true,

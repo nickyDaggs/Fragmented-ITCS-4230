@@ -13,10 +13,10 @@ player_yspeed += player_gravity;
 //vercollision, movement, and jumping
 
 var one_way_obj = instance_place(x, y + player_yspeed, obj_OneWayFloor);
-var top_of_one_way = one_way_obj != noone and self.bbox_bottom <= one_way_obj.bbox_top+1;
+var top_of_one_way = one_way_obj != noone and self.bbox_bottom <= one_way_obj.bbox_top+2;
 
 if(place_meeting(x, y + player_yspeed, obj_testFloor) or 
-place_meeting(x, y + player_yspeed, obj_OneWayFloor) && top_of_one_way && !down_press) {
+place_meeting(x, y + player_yspeed, obj_OneWayFloor) && top_of_one_way) {
 	player_yspeed = 0;
 }
 
@@ -25,14 +25,20 @@ move_and_collide(x_move, 0, obj_testFloor);
 
 
 
-if((place_meeting(x, y + 1, obj_testFloor)) or (place_meeting(x, y + 1, obj_OneWayFloor))) {
+if(place_meeting(x, y + 1, obj_testFloor) or 
+place_meeting(x, y + 1, obj_OneWayFloor) or
+place_meeting(x, y + 1, obj_swing_plat)) {
 	on_ground = true;
 	jump_current = jump_count;
 } else {
 	on_ground = false;
 }
 
-
+//Moving Platform Collision
+var _movingPlatform = instance_place(x, y + max(1, player_yspeed), obj_swing_plat);
+if(_movingPlatform) { //&& bbox_bottom <= _movingPlatform.bbox_top) {
+	x += _movingPlatform.moveX;
+}
 
 //COYOTE TIMER
 

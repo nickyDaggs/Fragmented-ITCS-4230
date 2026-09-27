@@ -6,8 +6,8 @@
   "name":"obj_monkeyBarsLarge",
   "overriddenProperties":[],
   "parent":{
-    "name":"Childhood Objects",
-    "path":"folders/Objects/Childhood Objects.yy",
+    "name":"group1",
+    "path":"folders/Objects/Childhood Objects/group1.yy",
   },
   "parentObjectId":{
     "name":"obj_testFloor",
