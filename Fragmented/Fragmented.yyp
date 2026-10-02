@@ -63,6 +63,7 @@
     {"id":{"name":"obj_swing_static","path":"objects/obj_swing_static/obj_swing_static.yy",},},
     {"id":{"name":"obj_swingbar_handle","path":"objects/obj_swingbar_handle/obj_swingbar_handle.yy",},},
     {"id":{"name":"obj_swingbar_top","path":"objects/obj_swingbar_top/obj_swingbar_top.yy",},},
+    {"id":{"name":"obj_swingingPoint","path":"objects/obj_swingingPoint/obj_swingingPoint.yy",},},
     {"id":{"name":"obj_testFloor","path":"objects/obj_testFloor/obj_testFloor.yy",},},
     {"id":{"name":"obj_testWall","path":"objects/obj_testWall/obj_testWall.yy",},},
     {"id":{"name":"obj_viewFollow","path":"objects/obj_viewFollow/obj_viewFollow.yy",},},

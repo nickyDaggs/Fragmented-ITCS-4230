@@ -44,6 +44,7 @@
     {"name":"obj_swing_static","order":17,"path":"objects/obj_swing_static/obj_swing_static.yy",},
     {"name":"obj_swingbar_handle","order":16,"path":"objects/obj_swingbar_handle/obj_swingbar_handle.yy",},
     {"name":"obj_swingbar_top","order":14,"path":"objects/obj_swingbar_top/obj_swingbar_top.yy",},
+    {"name":"obj_swingingPoint","order":12,"path":"objects/obj_swingingPoint/obj_swingingPoint.yy",},
     {"name":"obj_testFloor","order":2,"path":"objects/obj_testFloor/obj_testFloor.yy",},
     {"name":"obj_testWall","order":3,"path":"objects/obj_testWall/obj_testWall.yy",},
     {"name":"obj_viewFollow","order":9,"path":"objects/obj_viewFollow/obj_viewFollow.yy",},

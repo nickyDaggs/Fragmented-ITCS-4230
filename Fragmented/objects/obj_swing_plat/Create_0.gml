@@ -1,5 +1,5 @@
-platformSpeed = 4;
-currentSpeed = 4;
+platformSpeed = 5;
+currentSpeed = 5;
 moveX = 0;
 moveY = 0;
 
