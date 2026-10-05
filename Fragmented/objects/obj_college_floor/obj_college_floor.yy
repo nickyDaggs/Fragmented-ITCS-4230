@@ -1,13 +1,13 @@
 {
   "$GMObject":"",
-  "%Name":"obj_childhoodbg",
+  "%Name":"obj_college_floor",
   "eventList":[],
   "managed":true,
-  "name":"obj_childhoodbg",
+  "name":"obj_college_floor",
   "overriddenProperties":[],
   "parent":{
-    "name":"Childhood Objects",
-    "path":"folders/Objects/Childhood Objects.yy",
+    "name":"College Objects",
+    "path":"folders/Objects/College Objects.yy",
   },
   "parentObjectId":null,
   "persistent":false,
@@ -28,8 +28,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"spr_childhoodbg",
-    "path":"sprites/spr_childhoodbg/spr_childhoodbg.yy",
+    "name":"spr_college_floor",
+    "path":"sprites/spr_college_floor/spr_college_floor.yy",
   },
   "spriteMaskId":null,
   "visible":true,

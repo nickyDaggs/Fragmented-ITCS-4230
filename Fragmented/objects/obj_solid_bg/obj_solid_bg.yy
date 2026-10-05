@@ -1,13 +1,13 @@
 {
   "$GMObject":"",
-  "%Name":"obj_childhoodbg",
+  "%Name":"obj_solid_bg",
   "eventList":[],
   "managed":true,
-  "name":"obj_childhoodbg",
+  "name":"obj_solid_bg",
   "overriddenProperties":[],
   "parent":{
-    "name":"Childhood Objects",
-    "path":"folders/Objects/Childhood Objects.yy",
+    "name":"Objects",
+    "path":"folders/Objects.yy",
   },
   "parentObjectId":null,
   "persistent":false,
@@ -28,8 +28,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"spr_childhoodbg",
-    "path":"sprites/spr_childhoodbg/spr_childhoodbg.yy",
+    "name":"solid_white",
+    "path":"sprites/solid_white/solid_white.yy",
   },
   "spriteMaskId":null,
   "visible":true,
