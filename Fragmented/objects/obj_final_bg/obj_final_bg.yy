@@ -1,13 +1,13 @@
 {
   "$GMObject":"",
-  "%Name":"obj_college_stairs",
+  "%Name":"obj_final_bg",
   "eventList":[],
   "managed":true,
-  "name":"obj_college_stairs",
+  "name":"obj_final_bg",
   "overriddenProperties":[],
   "parent":{
-    "name":"College Objects",
-    "path":"folders/Objects/College Objects.yy",
+    "name":"Final Objects",
+    "path":"folders/Objects/Final Objects.yy",
   },
   "parentObjectId":null,
   "persistent":false,
@@ -28,8 +28,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"spr_college_stairs",
-    "path":"sprites/spr_college_stairs/spr_college_stairs.yy",
+    "name":"spr_final_bg",
+    "path":"sprites/spr_final_bg/spr_final_bg.yy",
   },
   "spriteMaskId":null,
   "visible":true,

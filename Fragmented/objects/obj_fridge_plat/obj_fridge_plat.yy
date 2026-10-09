@@ -1,13 +1,13 @@
 {
   "$GMObject":"",
-  "%Name":"obj_college_stairs",
+  "%Name":"obj_fridge_plat",
   "eventList":[],
   "managed":true,
-  "name":"obj_college_stairs",
+  "name":"obj_fridge_plat",
   "overriddenProperties":[],
   "parent":{
-    "name":"College Objects",
-    "path":"folders/Objects/College Objects.yy",
+    "name":"Final Objects",
+    "path":"folders/Objects/Final Objects.yy",
   },
   "parentObjectId":null,
   "persistent":false,
@@ -27,10 +27,7 @@
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
   "solid":false,
-  "spriteId":{
-    "name":"spr_college_stairs",
-    "path":"sprites/spr_college_stairs/spr_college_stairs.yy",
-  },
+  "spriteId":null,
   "spriteMaskId":null,
   "visible":true,
 }
