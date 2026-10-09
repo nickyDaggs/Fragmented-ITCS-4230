@@ -1,10 +1,6 @@
 {
   "$GMSprite":"v2",
-<<<<<<<< Updated upstream:Fragmented/sprites/spr_college_stairs/spr_college_stairs.yy
   "%Name":"spr_college_stairs",
-========
-  "%Name":"spr_stairs",
->>>>>>>> Stashed changes:Fragmented/sprites/spr_stairs/spr_stairs.yy
   "bboxMode":0,
   "bbox_bottom":170,
   "bbox_left":0,
@@ -25,11 +21,7 @@
   "layers":[
     {"$GMImageLayer":"","%Name":"93d0296e-93ad-4a0e-81eb-77dd61bac55f","blendMode":0,"displayName":"default","isLocked":false,"name":"93d0296e-93ad-4a0e-81eb-77dd61bac55f","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
   ],
-<<<<<<<< Updated upstream:Fragmented/sprites/spr_college_stairs/spr_college_stairs.yy
   "name":"spr_college_stairs",
-========
-  "name":"spr_stairs",
->>>>>>>> Stashed changes:Fragmented/sprites/spr_stairs/spr_stairs.yy
   "nineSlice":null,
   "origin":4,
   "parent":{
@@ -41,11 +33,7 @@
   "resourceVersion":"2.0",
   "sequence":{
     "$GMSequence":"v1",
-<<<<<<<< Updated upstream:Fragmented/sprites/spr_college_stairs/spr_college_stairs.yy
     "%Name":"spr_college_stairs",
-========
-    "%Name":"spr_stairs",
->>>>>>>> Stashed changes:Fragmented/sprites/spr_stairs/spr_stairs.yy
     "autoRecord":true,
     "backdropHeight":768,
     "backdropImageOpacity":0.5,
@@ -69,11 +57,7 @@
       "resourceType":"KeyframeStore<MomentsEventKeyframe>",
       "resourceVersion":"2.0",
     },
-<<<<<<<< Updated upstream:Fragmented/sprites/spr_college_stairs/spr_college_stairs.yy
     "name":"spr_college_stairs",
-========
-    "name":"spr_stairs",
->>>>>>>> Stashed changes:Fragmented/sprites/spr_stairs/spr_stairs.yy
     "playback":1,
     "playbackSpeed":30.0,
     "playbackSpeedType":0,
@@ -85,11 +69,7 @@
     "tracks":[
       {"$GMSpriteFramesTrack":"","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"$KeyframeStore<SpriteFrameKeyframe>":"","Keyframes":[
             {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-<<<<<<<< Updated upstream:Fragmented/sprites/spr_college_stairs/spr_college_stairs.yy
                 "0":{"$SpriteFrameKeyframe":"","Id":{"name":"0b28f533-38ab-4bf3-bbf7-eda086eb2b3e","path":"sprites/spr_college_stairs/spr_college_stairs.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
-========
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"0b28f533-38ab-4bf3-bbf7-eda086eb2b3e","path":"sprites/spr_stairs/spr_stairs.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
->>>>>>>> Stashed changes:Fragmented/sprites/spr_stairs/spr_stairs.yy
               },"Disabled":false,"id":"c15608df-6983-4a2d-8fa6-364a9c69d223","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
           ],"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"2.0",},"modifiers":[],"name":"frames","resourceType":"GMSpriteFramesTrack","resourceVersion":"2.0","spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],

@@ -28,13 +28,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-<<<<<<< Updated upstream
     "name":"spr_college_stairs",
     "path":"sprites/spr_college_stairs/spr_college_stairs.yy",
-=======
-    "name":"spr_stairs",
-    "path":"sprites/spr_stairs/spr_stairs.yy",
->>>>>>> Stashed changes
   },
   "spriteMaskId":null,
   "visible":true,

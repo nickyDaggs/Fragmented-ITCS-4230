@@ -31,8 +31,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"spr_pillar",
-    "path":"sprites/spr_pillar/spr_pillar.yy",
+    "name":"spr_college_bgwall",
+    "path":"sprites/spr_college_bgwall/spr_college_bgwall.yy",
   },
   "spriteMaskId":null,
   "visible":true,
