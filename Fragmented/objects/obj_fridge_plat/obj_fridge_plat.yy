@@ -9,7 +9,10 @@
     "name":"Final Objects",
     "path":"folders/Objects/Final Objects.yy",
   },
-  "parentObjectId":null,
+  "parentObjectId":{
+    "name":"obj_testFloor",
+    "path":"objects/obj_testFloor/obj_testFloor.yy",
+  },
   "persistent":false,
   "physicsAngularDamping":0.1,
   "physicsDensity":0.5,
@@ -27,7 +30,10 @@
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
   "solid":false,
-  "spriteId":null,
+  "spriteId":{
+    "name":"spr_fridge",
+    "path":"sprites/spr_fridge/spr_fridge.yy",
+  },
   "spriteMaskId":null,
   "visible":true,
 }

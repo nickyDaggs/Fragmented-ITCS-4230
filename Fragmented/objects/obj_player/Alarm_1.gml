@@ -1,0 +1,1 @@
+obj_popUpText.item_gain = false;

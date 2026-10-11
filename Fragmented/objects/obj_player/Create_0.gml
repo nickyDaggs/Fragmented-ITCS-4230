@@ -1,3 +1,5 @@
+paused = false;
+
 player_yspeed = 0;
 player_xspeed = 10;
 player_gravity = 0.35;
@@ -9,7 +11,7 @@ jump_current = 0;
 
 //dash
 dash_ready = true;
-dash_xspeed = 250;
+dash_xspeed = 300;
 
 buffer_counter = 0; //Initializes counter for jump buffer
 buffer_max = 6; //Amount of frames allowed for buffer
