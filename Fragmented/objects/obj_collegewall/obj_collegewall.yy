@@ -31,8 +31,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"spr_college_pilar",
-    "path":"sprites/spr_college_pilar/spr_college_pilar.yy",
+    "name":"spr_college_pillar",
+    "path":"sprites/spr_college_pillar/spr_college_pillar.yy",
   },
   "spriteMaskId":null,
   "visible":true,

@@ -41,8 +41,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"spr_swing_handle",
-    "path":"sprites/spr_swing_handle/spr_swing_handle.yy",
+    "name":"spr_swingchain",
+    "path":"sprites/spr_swingchain/spr_swingchain.yy",
   },
   "spriteMaskId":null,
   "visible":true,

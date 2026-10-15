@@ -28,8 +28,8 @@
   "physicsShapePoints":[],
   "physicsStartAwake":true,
   "properties":[
-    {"$GMObjectProperty":"v2","%Name":"checkpointX","filters":[],"listItems":[],"multiselect":false,"name":"checkpointX","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"2686","varType":0,},
-    {"$GMObjectProperty":"v2","%Name":"checkpointY","filters":[],"listItems":[],"multiselect":false,"name":"checkpointY","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"5468","varType":0,},
+    {"$GMObjectProperty":"v2","%Name":"checkpointX","filters":[],"listItems":[],"multiselect":false,"name":"checkpointX","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"playground_checkpoint.x","varType":0,},
+    {"$GMObjectProperty":"v2","%Name":"checkpointY","filters":[],"listItems":[],"multiselect":false,"name":"checkpointY","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"playground_checkpoint.y","varType":0,},
   ],
   "resourceType":"GMObject",
   "resourceVersion":"2.0",

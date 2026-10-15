@@ -17,13 +17,11 @@ if (!paused) {
 	var one_way_obj = instance_place(x, y + player_yspeed, obj_OneWayFloor);
 	var top_of_one_way = one_way_obj != noone and self.bbox_bottom <= one_way_obj.bbox_top+2;
 	
-	if(place_meeting(x, y + player_yspeed, obj_testFloor) or 
-	place_meeting(x, y + player_yspeed, obj_OneWayFloor) && top_of_one_way) {
+	if (player_yspeed > 0 && place_meeting(x, y + player_yspeed, obj_OneWayFloor) && top_of_one_way) {
 		player_yspeed = 0;
 	}
 
-	move_and_collide(0, player_yspeed, obj_testFloor, 4, 0, 0, 0, player_max_fall_speed);
-	move_and_collide(x_move, 0, obj_testFloor);
+	move_and_collide(x_move, player_yspeed, obj_testFloor, 8, 0, 0, player_xspeed, -1);
 
 
 
@@ -32,6 +30,10 @@ if (!paused) {
 	place_meeting(x, y + 1, obj_swing_plat)) {
 		on_ground = true;
 		jump_current = jump_count;
+		
+		if (player_yspeed > 0) {
+	        player_yspeed = 0;
+	    }
 	} else {
 		on_ground = false;
 	}
@@ -86,16 +88,64 @@ if (!paused) {
 	}
 
 	//Teleport Dash
-	if(can_dash && dash_press && dash_ready) { 
-		dash_ready = false;
-		dash_speed = (right_press - left_press) * dash_xspeed;
-		if(place_meeting(x+dash_speed, y, obj_testFloor)) {
-	        if(!place_meeting(x+1, y, obj_testFloor)) {
-	            x+=1;
+	if (can_dash && dash_press && dash_ready) {
+	    var _dir = right_press - left_press;
+	    if (_dir != 0) {
+	        dash_ready = false;
+
+	        var _dist = dash_xspeed;
+	        if (_dir > 0) _dist = min(_dist, room_width - bbox_right);
+	        else          _dist = min(_dist, bbox_left);
+	        _dist = max(0, floor(_dist));
+
+	        var _reach = 0;
+	        while (_reach < _dist && !dash_blocked(x + _dir * (_reach + 1), y)) {
+	            _reach++;
 	        }
-	    } else {
-			x += (right_press - left_press) * dash_xspeed;
+	        _dist = _reach;
+
+	        while (_dist > 0 && place_meeting(x + _dir * _dist, y, obj_testFloor)) {
+	            _dist--;
+	        }
+
+	        x += _dir * _dist;
+	        alarm[0] = 30;
 		}
-		alarm[0] = 30;
 	}
+}
+
+// PLAYER ANIMATIONS
+
+var new_sprite;
+
+if (!on_ground || player_yspeed < 0) {
+    new_sprite = spr_player_jump;
+}
+else if (x_move != 0) {
+    new_sprite = spr_player_run;
+}
+else {
+    new_sprite = spr_player_idle;
+}
+
+if (sprite_index != new_sprite) {
+    sprite_index = new_sprite;
+    image_index = 0;
+    image_speed = 1;
+}
+
+if (sprite_index == spr_player_jump) {
+    var hold_frame = sprite_get_number(spr_player_jump) - 1;
+
+    if (image_index >= hold_frame) {
+        image_index = hold_frame;
+        image_speed = 0;
+    }
+}
+
+if (x_move > 0) {
+    image_xscale = player_scale;
+}
+else if (x_move < 0) {
+    image_xscale = -player_scale;
 }

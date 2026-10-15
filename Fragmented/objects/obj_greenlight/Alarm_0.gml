@@ -6,4 +6,4 @@ if(green) {
 	sprite_index = spr_greenlight;
 }
 green = !green;
-alarm[0] = 90;
+alarm[0] = 120;
