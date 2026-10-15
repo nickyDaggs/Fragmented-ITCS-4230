@@ -46,3 +46,5 @@ if(place_meeting(x, y, obj_testFloor)) {
 		}
 	}
 }
+
+audio_listener_position(x, y, 0);

@@ -1,0 +1,1 @@
+obj_popUpText.door_locked = false;

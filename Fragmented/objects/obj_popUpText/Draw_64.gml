@@ -1,4 +1,4 @@
-if(item_gain) {
+if(item_gain || door_locked) {
 	draw_set_halign(fa_center);
 	draw_set_valign(fa_middle);
 	var gui_center_h = display_get_gui_width() / 2;
@@ -26,5 +26,5 @@ if (instance_exists(obj_player))
     {
         draw_sprite_ext(spr_energyDrink, 0, _x, _y, _scale, _scale, 0, c_white, 1);
         _x -= _size + _pad / 2;
-    }
+    }	
 }
