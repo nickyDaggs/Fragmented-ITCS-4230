@@ -91,6 +91,7 @@
     {"name":"MainRoomV2","order":3,"path":"rooms/MainRoomV2/MainRoomV2.yy",},
     {"name":"TransitionRoom","order":5,"path":"rooms/TransitionRoom/TransitionRoom.yy",},
     {"name":"CreateDialogue","order":3,"path":"scripts/CreateDialogue/CreateDialogue.yy",},
+    {"name":"ItemGlow","order":4,"path":"scripts/ItemGlow/ItemGlow.yy",},
     {"name":"TimerLoop","order":2,"path":"scripts/TimerLoop/TimerLoop.yy",},
     {"name":"snd_background_music2","order":1,"path":"sounds/snd_background_music2/snd_background_music2.yy",},
     {"name":"solid_black","order":11,"path":"sprites/solid_black/solid_black.yy",},
@@ -166,6 +167,7 @@
     {"name":"testPlayerSprite","order":1,"path":"sprites/testPlayerSprite/testPlayerSprite.yy",},
     {"name":"testSprite_wall","order":2,"path":"sprites/testSprite_wall/testSprite_wall.yy",},
     {"name":"z_prompt","order":12,"path":"sprites/z_prompt/z_prompt.yy",},
+    {"name":"shd_grayscale","order":1,"path":"shaders/shd_grayscale/shd_grayscale.yy",},
     {"name":"largeCollegeSet","order":1,"path":"tilesets/largeCollegeSet/largeCollegeSet.yy",},
   ],
 }

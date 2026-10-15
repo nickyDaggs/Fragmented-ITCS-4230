@@ -1,4 +1,5 @@
 prompt_on = true;
+shaded = true;
 
 npc_dialogue = [
 {
