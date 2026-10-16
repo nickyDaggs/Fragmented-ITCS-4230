@@ -227,12 +227,12 @@
   "resourceVersion":"2.0",
   "RoomOrderNodes":[
     {"roomId":{"name":"MainMenu","path":"rooms/MainMenu/MainMenu.yy",},},
+    {"roomId":{"name":"Credits","path":"rooms/Credits/Credits.yy",},},
+    {"roomId":{"name":"TransitionRoom","path":"rooms/TransitionRoom/TransitionRoom.yy",},},
     {"roomId":{"name":"MainRoomV2","path":"rooms/MainRoomV2/MainRoomV2.yy",},},
     {"roomId":{"name":"WinScreen","path":"rooms/WinScreen/WinScreen.yy",},},
     {"roomId":{"name":"MainRoom","path":"rooms/MainRoom/MainRoom.yy",},},
     {"roomId":{"name":"TestRoom","path":"rooms/TestRoom/TestRoom.yy",},},
-    {"roomId":{"name":"TransitionRoom","path":"rooms/TransitionRoom/TransitionRoom.yy",},},
-    {"roomId":{"name":"Credits","path":"rooms/Credits/Credits.yy",},},
   ],
   "templateType":"game",
   "TextureGroups":[

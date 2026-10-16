@@ -4,7 +4,7 @@ shaded = true;
 npc_dialogue = [
 {
 	name: "?????",
-	msg: "Hi honey, you’re late getting home again..          "
+	msg: "Hi honey, you're late getting home again..          "
 },
 {
 	name: "?????",
@@ -12,7 +12,7 @@ npc_dialogue = [
 },
 {
 	name: "?????",
-	msg: "I feel like there’s only an empty shell or a shadow of my husband left lingering around..          "
+	msg: "I feel like there's only an empty shell or a shadow of my husband left lingering around..          "
 },
 {
 	name: "?????",

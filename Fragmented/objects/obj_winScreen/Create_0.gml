@@ -1,15 +1,15 @@
 final_dialogue = [
 {
 	name: "",
-	msg: "Ever since stepping into the real world of adulting, I’ve felt like I’ve lost myself.          "
+	msg: "Ever since stepping into the real world of adulting, I've felt like I've lost myself.          "
 },
 {
 	name: "",
-	msg: "My memories haven’t been.. whole.. in a while.          "
+	msg: "My memories haven't been.. whole.. in a while.          "
 },
 {
 	name: "",
-	msg: "I’ve lost myself within bits of my own memory.                    "
+	msg: "I've lost myself within bits of my own memory.                    "
 },
 {
 	name: "",
@@ -17,7 +17,7 @@ final_dialogue = [
 },
 {
 	name: "",
-	msg: "My memories aren’t fragmented within my own brain.                    "
+	msg: "My memories aren’t fragmented anymore.                    "
 }
 ];
 

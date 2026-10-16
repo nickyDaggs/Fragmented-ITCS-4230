@@ -12,7 +12,7 @@ npc_dialogue = [
 },
 {
 	name: "?????",
-	msg: "That’s why we became friends and even made friendship bracelets.          "
+	msg: "That's why we became friends and even made friendship bracelets.          "
 },
 {
 	name: "?????",
