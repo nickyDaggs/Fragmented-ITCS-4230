@@ -10,7 +10,7 @@
   "compression":1,
   "compressionQuality":4,
   "conversionMode":0,
-  "duration":59.67163,
+  "duration":50.169025,
   "exportDir":"",
   "name":"snd_background_music",
   "parent":{
@@ -21,6 +21,6 @@
   "resourceType":"GMSound",
   "resourceVersion":"2.0",
   "sampleRate":44100,
-  "soundFile":"snd_background_music.mp3",
-  "volume":0.25,
+  "soundFile":"snd_background_music.wav",
+  "volume":1.0,
 }

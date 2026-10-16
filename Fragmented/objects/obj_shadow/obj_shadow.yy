@@ -11,8 +11,8 @@
   "name":"obj_shadow",
   "overriddenProperties":[],
   "parent":{
-    "name":"Objects",
-    "path":"folders/Objects.yy",
+    "name":"Final Objects",
+    "path":"folders/Objects/Final Objects.yy",
   },
   "parentObjectId":null,
   "persistent":false,

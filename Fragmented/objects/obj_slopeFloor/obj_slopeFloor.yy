@@ -8,8 +8,8 @@
   "name":"obj_slopeFloor",
   "overriddenProperties":[],
   "parent":{
-    "name":"Objects",
-    "path":"folders/Objects.yy",
+    "name":"Blocks and Mechanics",
+    "path":"folders/Objects/Blocks and Mechanics.yy",
   },
   "parentObjectId":{
     "name":"obj_testFloor",

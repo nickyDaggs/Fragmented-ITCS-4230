@@ -11,8 +11,8 @@
   "name":"obj_finaldoor",
   "overriddenProperties":[],
   "parent":{
-    "name":"Objects",
-    "path":"folders/Objects.yy",
+    "name":"Final Objects",
+    "path":"folders/Objects/Final Objects.yy",
   },
   "parentObjectId":{
     "name":"obj_college_iDoor",

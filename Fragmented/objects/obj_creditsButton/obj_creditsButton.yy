@@ -8,8 +8,8 @@
   "name":"obj_creditsButton",
   "overriddenProperties":[],
   "parent":{
-    "name":"MainMenuObjs",
-    "path":"folders/Objects/MainMenuObjs.yy",
+    "name":"Menus",
+    "path":"folders/Objects/Menus.yy",
   },
   "parentObjectId":{
     "name":"obj_playButton",

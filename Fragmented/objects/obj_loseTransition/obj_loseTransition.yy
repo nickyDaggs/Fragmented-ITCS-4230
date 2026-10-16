@@ -8,8 +8,8 @@
   "name":"obj_loseTransition",
   "overriddenProperties":[],
   "parent":{
-    "name":"Objects",
-    "path":"folders/Objects.yy",
+    "name":"Controllers",
+    "path":"folders/Objects/Controllers.yy",
   },
   "parentObjectId":{
     "name":"obj_startTransition",
