@@ -8,10 +8,14 @@ npc_dialogue = [
 },
 {
 	name: "?????",
-	msg: "That party last night was awesome, but now I'm sooo tired and I gotta pack.         "
+	msg: "That party last night was awesome, you were always the true life of the party.         "
 },
 {
 	name: "?????",
-	msg: " I bought you an energy drink but I misplaced it somewhere. It should be somewhere in the dorm hall.          "
+	msg: "Oh yeah, thanks for helping me back to the dorm last night.          "
+},
+{
+	name: "?????",
+	msg: "I  bought you an energy drink as a thank you. It should be around here somewhere          "
 }
 ]

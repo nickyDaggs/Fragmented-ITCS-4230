@@ -8,8 +8,8 @@
   "name":"obj_winScreen",
   "overriddenProperties":[],
   "parent":{
-    "name":"MainMenuObjs",
-    "path":"folders/Objects/MainMenuObjs.yy",
+    "name":"Dialogue",
+    "path":"folders/Objects/Dialogue.yy",
   },
   "parentObjectId":null,
   "persistent":false,
