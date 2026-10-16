@@ -3,6 +3,7 @@ var right_press = keyboard_check(vk_right);
 var down_press = keyboard_check(vk_down);
 var jump_press = keyboard_check_pressed(vk_space);
 var jump_held = keyboard_check(vk_space);
+var jump_started = false;
 
 var dash_press = keyboard_check(vk_shift);
 
@@ -55,6 +56,7 @@ if (!paused) {
 					player_yspeed = player_jump_speed;
 					jump_current--;
 					jumping = true;
+					jump_started = true;
 				}
 			}
 		}
@@ -78,6 +80,7 @@ if (!paused) {
 			player_yspeed = player_jump_speed;
 			buffer_counter = 0;
 			jumping = true;
+			jump_started = true;
 		}
 	}
 
@@ -148,4 +151,21 @@ if (x_move > 0) {
 }
 else if (x_move < 0) {
     image_xscale = -player_scale;
+}
+
+//PLAYER SOUNDS
+if (jump_started) {
+    audio_play_sound(snd_jump, 1, false);
+}
+
+if (!paused && on_ground && x_move != 0 && !jump_started) {
+    if (!audio_is_playing(snd_running)) {
+        audio_play_sound(snd_running, 1, true);
+		audio_sound_pitch(snd_running, 2);
+    }
+}
+else {
+    if (audio_is_playing(snd_running)) {
+        audio_stop_sound(snd_running);
+    }
 }

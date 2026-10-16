@@ -4,11 +4,11 @@ function ItemGlowCreate() {
 
 	glow_type = part_type_create();
 	part_type_shape(glow_type, pt_shape_square);
-	part_type_size(glow_type, 0.04, 0.08, 0, 0);
+	part_type_size(glow_type, 0.08, 0.08, 0, 0);
 	part_type_color1(glow_type, c_white);
 	part_type_alpha2(glow_type, 0.8, 0);
 	part_type_speed(glow_type, 0.2, 0.5, 0, 0);
-	part_type_direction(glow_type, 80, 100, 0, 0);
+	part_type_direction(glow_type, 80, 100, 0, 100);
 	part_type_life(glow_type, 20, 35);
 	part_type_blend(glow_type, true);
 

@@ -1,5 +1,5 @@
 var _my_method = function()
-{
+{	audio_play_sound(snd_death, 1, false);
     room_restart();
 }
 
