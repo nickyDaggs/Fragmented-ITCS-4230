@@ -3,9 +3,9 @@ if(item_gain || door_locked) {
 	draw_set_valign(fa_middle);
 	var gui_center_h = display_get_gui_width() / 2;
 	var gui_center_v = display_get_gui_height() - 100;
-	var text_scale = 2
-
-	draw_text_transformed(gui_center_h, gui_center_v, item_text, text_scale, text_scale,0);
+	var text_scale = 3;
+	
+	draw_txt_border(gui_center_h,gui_center_v, item_text, c_white, c_black, text_scale, 1);
 }
 
 if (instance_exists(obj_player))

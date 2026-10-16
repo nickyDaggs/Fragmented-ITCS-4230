@@ -3,11 +3,12 @@ paused = false;
 player_yspeed = 0;
 player_xspeed = 5;
 player_gravity = 0.35;
-player_max_fall_speed = 5;
+player_max_fall_speed = 10;
 player_jump_speed = -8;
 
 //Amount of jumps toggled by jump_count in Variable Definitons
 jump_current = 0;
+jump_started = false;
 
 //dash
 dash_ready = true;

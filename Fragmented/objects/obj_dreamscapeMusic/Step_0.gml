@@ -1,3 +1,4 @@
+if (global.paused) exit;
 if (instance_exists(obj_player) && obj_player.y <= 1100) {
 
     audio_emitter_position(emitter, x, y, 0);

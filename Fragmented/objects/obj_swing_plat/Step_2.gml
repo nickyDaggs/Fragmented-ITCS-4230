@@ -1,3 +1,4 @@
+if (global.paused) exit;
 //Move
 x += moveX
 y += moveY

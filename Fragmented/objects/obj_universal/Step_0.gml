@@ -1,4 +1,4 @@
-if (room == MainRoomV2 && instance_exists(obj_player)) {
+if (room == GameLevel && instance_exists(obj_player)) {
 
     if (!audio_is_playing(snd_background_music)) {
 		var music1 = audio_play_sound(snd_background_music, 90, true);

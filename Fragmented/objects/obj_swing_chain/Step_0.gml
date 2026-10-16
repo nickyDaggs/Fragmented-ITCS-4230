@@ -1,3 +1,4 @@
+if (global.paused) exit;
 if (!pause) {
     var _tx = platformID.x + xOffset;
     var _ty = platformID.y;

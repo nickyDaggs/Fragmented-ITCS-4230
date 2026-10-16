@@ -8,8 +8,8 @@ if (current_char < string_length(_str)) {
 } else {
 	current_message++;
 	if (current_message >= array_length(messages)) {
-		if (room == WinScreen) {
-			room_goto(MainMenu);
+		if (room == EndScreen) {
+			room_goto(WinScreen);
 		} else {
 			if (instance_exists(obj_manager)) time_source_resume(obj_manager.time_source);
 			if (instance_exists(obj_player)) obj_player.paused = false;

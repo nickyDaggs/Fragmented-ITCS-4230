@@ -1,5 +1,5 @@
 //Code Borrowed from "Make Your First RPG | Dialogue Boxes" video by GameMaker
-var _win = (room == WinScreen);
+var _win = (room == EndScreen);
 
 var _dx = 0;
 var _dy = _win ? 0 : gui_h * 0.85;

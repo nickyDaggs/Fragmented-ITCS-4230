@@ -4,7 +4,7 @@ shaded = true;
 npc_dialogue = [
 {
 	name: "?????",
-	msg: "*****! What's up dude?         "
+	msg: "[____]! What's up dude?         "
 },
 {
 	name: "?????",

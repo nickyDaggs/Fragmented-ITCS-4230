@@ -1,3 +1,4 @@
+if (global.paused) exit;
 if(keyboard_check(ord("Z"))) {
 	shaded = false;
 	//prompt_on = false;

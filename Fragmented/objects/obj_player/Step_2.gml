@@ -1,3 +1,4 @@
+if (global.paused) exit;
 if(place_meeting(x, y, obj_testFloor)) {
 	for(var i = 0; i < 1000; ++i) {
 		//Right

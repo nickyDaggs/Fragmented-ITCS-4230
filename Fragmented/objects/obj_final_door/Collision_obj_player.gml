@@ -1,3 +1,4 @@
+if (global.paused) exit;
 if(keyboard_check(ord("Z"))) {
 	if(obj_player.jump_count >= 2) {
 		instance_create_layer(x, y, "FadeLayer", obj_black_fade);

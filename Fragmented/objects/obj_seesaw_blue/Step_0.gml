@@ -1,3 +1,4 @@
+if (global.paused) exit;
 if (instance_place(x, y - 1, obj_player))
 {
 	if (x > obj_player.x) {

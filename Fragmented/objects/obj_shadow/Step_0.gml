@@ -1,3 +1,4 @@
+if (global.paused) exit;
 if (hit) exit;
 
 if (instance_exists(obj_player)) {

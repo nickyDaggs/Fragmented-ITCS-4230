@@ -16,4 +16,7 @@ var ss_string = string_replace(string_format(ss, 2, 0)," ","0");
 var hshs_string = string_replace(string_format(floor(hshs * 100), 2, 0)," ","0");
 
 
+
 draw_text_transformed(gui_center_h, gui_top_center_v, mm_string+":"+ss_string+":"+hshs_string, text_scale, text_scale, 0);
+
+draw_text_transformed(gui_center_h, gui_top_center_v + 50, "Attempts: " + string(obj_universal.curr_attempts), 2, 2, 0);

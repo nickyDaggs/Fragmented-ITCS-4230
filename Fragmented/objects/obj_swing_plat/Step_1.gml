@@ -1,3 +1,4 @@
+if (global.paused) exit;
 //Set Target
 var _targetX = endX, _targetY = endY;
 

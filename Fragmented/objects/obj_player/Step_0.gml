@@ -1,9 +1,10 @@
+if (global.paused) exit;
 var left_press = keyboard_check(vk_left);
 var right_press = keyboard_check(vk_right);
 var down_press = keyboard_check(vk_down);
 var jump_press = keyboard_check_pressed(vk_space);
 var jump_held = keyboard_check(vk_space);
-var jump_started = false;
+jump_started = false;
 
 var dash_press = keyboard_check(vk_shift);
 
@@ -12,14 +13,16 @@ var x_move = (right_press - left_press) * player_xspeed;
 
 if (!paused) {
 	player_yspeed += player_gravity;
+	player_yspeed = min(player_yspeed, player_max_fall_speed);
 
 	//collision, movement, and jumping
 
 	var one_way_obj = instance_place(x, y + player_yspeed, obj_OneWayFloor);
 	var top_of_one_way = one_way_obj != noone and self.bbox_bottom <= one_way_obj.bbox_top+2;
 	
-	if (player_yspeed > 0 && place_meeting(x, y + player_yspeed, obj_OneWayFloor) && top_of_one_way) {
-		player_yspeed = 0;
+	if (player_yspeed > 0 && top_of_one_way) {
+	    while (!place_meeting(x, y + 1, obj_OneWayFloor)) y += 1;
+	    player_yspeed = 0;
 	}
 
 	move_and_collide(x_move, player_yspeed, obj_testFloor, 8, 0, 0, player_xspeed, -1);
@@ -92,6 +95,7 @@ if (!paused) {
 
 	//Teleport Dash
 	if (can_dash && dash_press && dash_ready) {
+		audio_play_sound(snd_dash, 1, false);
 	    var _dir = right_press - left_press;
 	    if (_dir != 0) {
 	        dash_ready = false;

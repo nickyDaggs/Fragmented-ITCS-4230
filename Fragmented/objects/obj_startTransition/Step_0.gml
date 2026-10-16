@@ -20,7 +20,7 @@ switch (stage) {
     case 3:
         fade += 0.05;
         if (fade >= 1) {
-            room_goto(MainRoomV2);
+            room_goto(GameLevel);
             stage = 4;
         }
         break;

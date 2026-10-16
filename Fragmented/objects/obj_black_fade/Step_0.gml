@@ -1,3 +1,4 @@
+if (global.paused) exit;
 alpha += alpha_change;
 image_alpha = alpha;
 
