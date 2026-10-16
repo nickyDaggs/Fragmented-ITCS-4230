@@ -8,7 +8,7 @@ npc_dialogue = [
 },
 {
 	name: "?????",
-	msg: "You used to always make sure you had time for me but now you’re always tired.          "
+	msg: "You used to always make sure you had time for me but now you're always tired.          "
 },
 {
 	name: "?????",

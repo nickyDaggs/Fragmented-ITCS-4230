@@ -1,6 +1,5 @@
 function loopGame(){
 	var snd = audio_play_sound(snd_death, 1, false);
-	audio_sound_pitch(snd, 2);
 
 	if (instance_exists(obj_player)) {
 		instance_create_layer(obj_player.x, obj_player.y, "FadeLayer", obj_black_fade);
