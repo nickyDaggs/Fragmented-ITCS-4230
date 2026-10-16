@@ -24,38 +24,6 @@ The core game mechanics in ‘Fragmented’ include running, jumping, and dashin
 
 #########################################################################################################################################################
 
-Licensing Information:
-Visual Assets:
-Pixel Art Door Pack by karsiori (CC0 - https://karsiori.itch.io/pixel-art-door-pack-animated)
-Free Pixel Art Bar and Cafe Items Pack by karsiori (CC0 - https://karsiori.itch.io/free-pixel-art-bar-and-cafe-items-pack)
-Free Pixel Art Trash Pack - Animated  by karsiori (CC0 - https://karsiori.itch.io/free-pixel-art-trash-pack-animated)
-Free Pixel Art Vending Machines by karsiori (CC0 - https://karsiori.itch.io/pixel-art-vending-machines)
-Kitchen Equipments by SeeOne(Custom License - https://seeone.itch.io/kitchen-equipment)
-Free Summer Pixel Art Backgrounds from CraftPix (https://craftpix.net/file-licenses/)
-Free Tree Pixel Art Asset Pack from CraftPix (https://craftpix.net/file-licenses/)
-Pixel Paintings Pack – Framed Art for Cozy Interiors by biruk-okami (Custom License - https://biruk-okami.itch.io/pixel-paintings-pack-framed-art-for-cozy-interiors)
-Lunchtime Doubly So Font by codeman38(Custom License - https://www.1001fonts.com/lunchtime-doubly-so-font.html)
-All Other Art by Micah Platte(2026)
-
-Audio Assets:
-Hiking Boot Footsteps on Stone by Fission9 (CC0 - https://freesound.org/people/Fission9/sounds/521590/)
-Jump_C_04 on Stone by cabled_mess (CC0 - https://freesound.org/people/cabled_mess/sounds/350906/)
-Glassy transition by cabled_mess (CC0 - https://freesound.org/people/cabled_mess/sounds/360734/)
-video game menu music by magmadiverrr (CC0 - https://freesound.org/people/magmadiverrr/sounds/661248/)
-Jump/Dash by avaol (CC0 - https://freesound.org/people/avaol/sounds/864774/)
-8bit Fall by Fupicat (CC0 - https://freesound.org/people/Fupicat/sounds/538151/)
-Game Theme #4 by tyops -- https://freesound.org/s/423805/ -- License: Attribution 4.0
-VS Button Click 04.mp3 by Vilkas_Sound -- https://freesound.org/s/707041/ -- License: Attribution 4.0
-Doors - Wood Door With Latch_1 by PNMCarrieRailfan -- https://freesound.org/s/684538/ -- License: Attribution NonCommercial 4.0
-
-Code:
-Simple Pause Menu for GameMaker by jasontomlee (https://jasontomlee.itch.io/pause-menu-gamemaker-1-2 - https://creativecommons.org/licenses/by/4.0/)
-
-AI usage:
-The code authors acknowledge the use of AI agents Cursor and Claude in the preparation or completion of this assignment. Cursor was used in the following way in this assignment: brainstorming and debugging the collectible glow particles for the bracelet and energy drink, which were drawing as one large white square, and helping fix that and push the change to GitHub. Claude was used for text rendering for the final screen and debugging. 
-
-#########################################################################################################################################################
-
 Graduate Requirements Descriptions:
 
 The grayscale shader and the collectible glow make unnamed NPCs start washed out and make the bracelet and energy drink easier to find.
@@ -172,3 +140,35 @@ You will have to use both the Dash ability to go through walls and the Double Ju
 Watch out for your shadow clone! He will chase you in a path near the middle of the platforming section. Avoid him and avoid falling down or else you will have to restart the final section.
 Platform up and down from right to left to reach a white door. Press Z to enter and beat the game!
 You’ll see a final cutscene where the main character finally remembers themselves. Look at your final time and see if you can beat it in another playthrough!
+
+#########################################################################################################################################################
+
+Licensing Information:
+Visual Assets:
+Pixel Art Door Pack by karsiori (CC0 - https://karsiori.itch.io/pixel-art-door-pack-animated)
+Free Pixel Art Bar and Cafe Items Pack by karsiori (CC0 - https://karsiori.itch.io/free-pixel-art-bar-and-cafe-items-pack)
+Free Pixel Art Trash Pack - Animated  by karsiori (CC0 - https://karsiori.itch.io/free-pixel-art-trash-pack-animated)
+Free Pixel Art Vending Machines by karsiori (CC0 - https://karsiori.itch.io/pixel-art-vending-machines)
+Kitchen Equipments by SeeOne(Custom License - https://seeone.itch.io/kitchen-equipment)
+Free Summer Pixel Art Backgrounds from CraftPix (https://craftpix.net/file-licenses/)
+Free Tree Pixel Art Asset Pack from CraftPix (https://craftpix.net/file-licenses/)
+Pixel Paintings Pack – Framed Art for Cozy Interiors by biruk-okami (Custom License - https://biruk-okami.itch.io/pixel-paintings-pack-framed-art-for-cozy-interiors)
+Lunchtime Doubly So Font by codeman38(Custom License - https://www.1001fonts.com/lunchtime-doubly-so-font.html)
+All Other Art by Micah Platte(2026)
+
+Audio Assets:
+Hiking Boot Footsteps on Stone by Fission9 (CC0 - https://freesound.org/people/Fission9/sounds/521590/)
+Jump_C_04 on Stone by cabled_mess (CC0 - https://freesound.org/people/cabled_mess/sounds/350906/)
+Glassy transition by cabled_mess (CC0 - https://freesound.org/people/cabled_mess/sounds/360734/)
+video game menu music by magmadiverrr (CC0 - https://freesound.org/people/magmadiverrr/sounds/661248/)
+Jump/Dash by avaol (CC0 - https://freesound.org/people/avaol/sounds/864774/)
+8bit Fall by Fupicat (CC0 - https://freesound.org/people/Fupicat/sounds/538151/)
+Game Theme #4 by tyops -- https://freesound.org/s/423805/ -- License: Attribution 4.0
+VS Button Click 04.mp3 by Vilkas_Sound -- https://freesound.org/s/707041/ -- License: Attribution 4.0
+Doors - Wood Door With Latch_1 by PNMCarrieRailfan -- https://freesound.org/s/684538/ -- License: Attribution NonCommercial 4.0
+
+Code:
+Simple Pause Menu for GameMaker by jasontomlee (https://jasontomlee.itch.io/pause-menu-gamemaker-1-2 - https://creativecommons.org/licenses/by/4.0/)
+
+AI usage:
+The code authors acknowledge the use of AI agents Cursor and Claude in the preparation or completion of this assignment. Cursor was used in the following way in this assignment: brainstorming and debugging the collectible glow particles for the bracelet and energy drink, which were drawing as one large white square, and helping fix that and push the change to GitHub. Claude was used for text rendering for the final screen and debugging. 
