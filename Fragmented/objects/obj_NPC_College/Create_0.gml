@@ -16,6 +16,6 @@ npc_dialogue = [
 },
 {
 	name: "?????",
-	msg: "I  bought you an energy drink as a thank you. It should be around here somewhere          "
+	msg: "I  bought you an energy drink as a thank you. It should be around here somewhere.          "
 }
 ]

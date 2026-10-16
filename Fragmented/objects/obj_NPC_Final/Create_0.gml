@@ -4,18 +4,18 @@ shaded = true;
 npc_dialogue = [
 {
 	name: "?????",
-	msg: "Hi honey, glad you're back at home. Something weird has been going on, I just cleaned this house but it's a mess again!          "
+	msg: "Hi honey, you’re late getting home again..          "
 },
 {
 	name: "?????",
-	msg: "Everything looks not quite the right shape or size either.          "
+	msg: "You used to always make sure you had time for me but now you’re always tired.          "
 },
 {
 	name: "?????",
-	msg: "I swear I saw you, or at least your shadow making a mess, but surely I'm seeing things.          "
+	msg: "I feel like there’s only an empty shell or a shadow of my husband left lingering around..          "
 },
 {
 	name: "?????",
-	msg: "Maybe I just have a false memory.          "
+	msg: "Also, things in the house feel different. It feels like a weird rift or something. Things just don't feel right.          "
 }
 ]
